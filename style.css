@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3rem;
+    position: relative;
+}
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan :hsl(184, 100%, 22%) ;
+    --Very-dark-cyan: hsl(179, 100%, 13%) ;
+    --Transparent-white: hsla(0, 0%, 100%, 0.75) ;
+    --Very-light-gray : hsl(0, 0%, 95%) ;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* background-color: violet;*/
+    margin: auto;
+    width: 50%;
+    
+    
+}
+
+.container p{
+    color: var(--Transparent-white);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+    margin: 20px 0px 0px 20px ;
+}
+
+
+.container div{
+    height: 400px;
+    width: 220px;
+    padding: 30px;
+    padding: 30px ;
+    margin: 0px;
+    position: relative;
+}
+   
+img{
+    margin: 20px 0 20px 20px ;
+}
+.container h1{
+    color: var(--Very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 20px 0 20px 20px ;
+   
+}
+a{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color:var(--Very-light-gray);
+    border: none;
+    padding: 12px 20px 12px 20px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    bottom: 40px;
+    left: 50px;
+    position: absolute;
+}
+
+
+.sedans{
+    background-color: var(--Bright-orange) ;
+    border-radius: 10px 0 0 10px;
+}
+.suvs{
+    background-color: var(--Dark-cyan);
+}
+.luxury{
+background-color: var(--Very-dark-cyan);
+border-radius: 0 10px 10px 0;
+}
+.btn1{
+ color: var(--Bright-orange);
+}
+.btn1:active{
+    background-color: var(--Bright-orange) ;
+    color: var(--Very-light-gray) ;
+    border: 1.5px solid var(--Very-light-gray) ;
+    font-size: 15px;
+    padding: 12px 20px 12px 20px;
+    font-weight: 400;
+
+}
+.btn2{
+    color: var(--Dark-cyan);
+}
+.btn2:active{
+    background-color: var(--Dark-cyan) ;
+    color: var(--Very-light-gray) ;
+    border: 1.5px solid var(--Very-light-gray) ;
+    font-size: 15px;
+    padding: 12px 20px 12px 20px;
+    font-weight: 400;
+
+}
+.btn3{
+    color: var(--Very-dark-cyan);
+}
+.btn3:active{
+    background-color: var(--Very-dark-cyan) ;
+    color: var(--Very-light-gray) ;
+    border: 1.5px solid var(--Very-light-gray) ;
+    font-size: 15px;
+    padding: 12px 20px 12px 20px;
+    font-weight: 400;
+
+}
+@media only screen and(max-width:375px ) {
+    .container{
+    display: grid;
+    place-items: center;
+    } 
+}
